@@ -13,5 +13,7 @@ const map = new mapboxgl.Map({
   style: 'mapbox://styles/mapbox/streets-v10', // mapbox has lots of different map styles available.
 });
 
-const newMarker = buildMarker('hotels', [-74.009, 40.705]);
+const newMarker = buildMarker('activities', [-74.009, 40.705]);
 newMarker.addTo(map);
+
+console.log('HERE', newMarker)
